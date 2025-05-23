@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio do Designer</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome para ícones das redes sociais -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Link para seu arquivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Cabeçalho com Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Portfólio Designer</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Alternar navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre" class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img
+          src="https://via.placeholder.com/250"
+          alt="Foto do Designer"
+          class="profile-img img-fluid"
+        />
+      </div>
+      <div class="col-md-8">
+        <h2>Sobre Mim</h2>
+        <p>
+          Olá! Sou um designer gráfico freelancer apaixonado por criar
+          soluções visuais impactantes e funcionais. Com experiência em
+          branding, design digital e ilustração, busco transformar ideias em
+          arte.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Projetos -->
+  <section id="projetos" class="container my-5">
+    <h2 class="mb-4">Projetos</h2>
+    <div class="row g-3">
+      <!-- Cada projeto ocupa colunas responsivas -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <img
+          src="https://via.placeholder.com/300x200?text=Projeto+1"
+          alt="Projeto 1"
+          class="img-fluid rounded"
+        />
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img
+          src="https://via.placeholder.com/300x200?text=Projeto+2"
+          alt="Projeto 2"
+          class="img-fluid rounded"
+        />
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img
+          src="https://via.placeholder.com/300x200?text=Projeto+3"
+          alt="Projeto 3"
+          class="img-fluid rounded"
+        />
+      </div>
+      <div class="col-6 col-md-4 col-lg-3">
+        <img
+          src="https://via.placeholder.com/300x200?text=Projeto+4"
+          alt="Projeto 4"
+          class="img-fluid rounded"
+        />
+      </div>
+      <!-- Adicione mais projetos conforme desejar -->
+    </div>
+  </section>
+
+  <!-- Rodapé com Redes Sociais -->
+  <footer id="contato" class="text-center">
+    <div class="container">
+      <h5>Contato & Redes Sociais</h5>
+      <p>Siga-me nas redes sociais para acompanhar meus trabalhos!</p>
+      <a href="#" aria-label="Instagram" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="#" aria-label="LinkedIn" target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="#" aria-label="Behance" target="_blank"
+        ><i class="fab fa-behance"></i
+      ></a>
+      <a href="#" aria-label="Email" target="_blank"
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + Popper (via CDN) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
